@@ -1,4 +1,10 @@
-user/login_case
-user/Shanghu_case
-user/gzh_login
-user/gzh_shouye
+user/gzh_accountinfo
+user/gzh_currentpushwares
+user/gzh_prevpushwares
+user/gzh_currentordercredits
+user/gzh_currentsearchordercredits
+user/gzh_prevordercredits
+user/gzh_prevsearchordercredits
+uesr/gzh_favoriteware
+user/gzh_canclefavoriteware
+user/gzh_pushrecord

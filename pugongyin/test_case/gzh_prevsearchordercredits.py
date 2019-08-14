@@ -7,7 +7,7 @@ from common.configHttp import RunMain
 import read.readConfig as readConfig
 import common.getCommonInfo as getCommonInfo
 
-gzh_accountInfo = readExcel.ReadExcel().get_xls("gzh_showcase.xls", "showcase")  # 引入excel用例文档中需要的
+gzh_accountInfo = readExcel.ReadExcel().get_xls("gzh_showcase.xls", "prevsearchordercredits")  # 引入excel用例文档中需要的
 url = readConfig.ReadConfig().get_http("gzhonlineurl")  # 获取配置文件中的url地址
 shipOwnerId = getCommonInfo.shipOwnerId
 
@@ -29,15 +29,14 @@ class testT(unittest.TestCase):
         print(self.data)
         data = json.loads(self.data)
         # 调用 configHTTP 类中的run_main方法
-        info = RunMain().run_main(self.method, url + self.path + shipOwnerId + '/accountinfo', data)
+        info = RunMain().run_main(self.method, url + self.path + shipOwnerId + '/prevsearchordercredits', data)
         # 将得到的返回值进行格式化并取值判断
         res = json.loads(info)
         print(res)
-        if self.case_name == "getAccountInfo":
+        if self.case_name == "getPrevsearchordercredits":
             self.assertEqual(res['Code'], "000000")
 
 
 if __name__ == "__main__":
     testT.test()
 
-    # ShipOwnerId = testT().test()
