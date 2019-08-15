@@ -22,3 +22,7 @@ user/gzh_withdrawapply
 user/gzh_/withdrawcancel
 user/gzh_isinnerbuymember
 user/gzh_isoperationspecialist
+user/gzh_Ownerid
+user/Order
+user/Push
+user/Ship
