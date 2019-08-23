@@ -52,8 +52,11 @@ class getOwnerid(unittest.TestCase):
         url = readConfig.ReadConfig().get_http("gzhbaseurl")
 
         datajson = json.loads(data)
+        print(datajson)
+        print(url + path )
         info = RunMain().run_main(method, url + path, datajson)
         res = json.loads(info)
+        print("----",res)
         if res['Code']=="000000":
             global ShipOwnerId
             ShipOwnerId = res['Data']['ShipOwnerId']

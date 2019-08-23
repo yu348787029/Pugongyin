@@ -3,7 +3,6 @@ import unittest
 import paramunittest
 import requests
 import urllib.parse
-from test_case.getOwnerid import getOwnerid
 import read.readExcel as readExcel
 from common.configHttp import RunMain
 import read.readConfig as readConfig
@@ -26,25 +25,26 @@ class testgzxcxcase(unittest.TestCase):
         self.isTest = str(isTest)
     #调用测试方法
     def testgzxcxcase(self):
-        self.getAccountInfo()
-        self.getBuyrecord()
-        self.getFavoriteware()
-        self.getCanclefavoriteware()
-        self.getClickrecord()
-        self.getCreditscalculaterecord()
-        self.getCreditsrecord()
-        self.getCurrentordercredits()
-        self.getCurrentpushwares()
-        self.getCurrentsearchordercredits()
-        self.getEarninginfo()
-        self.getPrevordercredits()
-        self.getPrevpushwares()
-        self.getPrevsearchordercredits()
-        self.getPushrecord()
-        self.getMemberaccountinfo()
-        self.xcx_order()
-        self.getOrderdetail()
-        self.getOrderlogistics()
+        # self.getAccountInfo()
+        # self.getBuyrecord()
+        # self.getFavoriteware()
+        # self.getCanclefavoriteware()
+        # self.getClickrecord()
+        # self.getCreditscalculaterecord()
+        # self.getCreditsrecord()
+        # self.getCurrentordercredits()
+        # self.getCurrentpushwares()
+        # self.getCurrentsearchordercredits()
+        # self.getEarninginfo()
+        # self.getPrevordercredits()
+        # self.getPrevpushwares()
+        # self.getPrevsearchordercredits()
+        # self.getPushrecord()
+        # self.getMemberaccountinfo()
+        # self.xcx_order()
+        # self.getOrderdetail()
+        # self.getOrderlogistics()
+        self.getWithdrawlog()
 
     #获取（公众号）营区-首页 获取七天内推广前三名
     def getAccountInfo(self):
@@ -294,6 +294,20 @@ class testgzxcxcase(unittest.TestCase):
             self.assertEqual(res['Code'], "000000")
             print("-----物流信息------")
             self.assertFalse(res['IsError'])
+
+
+# 提现记录
+    def getWithdrawlog(self):
+        if self.case_name == "getWithdrawlog":
+            data = json.loads(self.data)
+            info = RunMain().run_main(self.method,url + self.path ,data)
+            res = json.loads(info)
+            print(res)
+            self.assertEqual(res['Code'], "000000")
+            print("-----提现记录------")
+            self.assertFalse(res['IsError'])
+
+
 
 
 if __name__ == '__main__':
