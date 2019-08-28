@@ -6,10 +6,11 @@ import urllib.parse
 import read.readExcel as readExcel
 from common.configHttp import RunMain
 import read.readConfig as readConfig
-from test_case.getOwnerid import getOwnerid
+import common.getCommonInfo as getCommonInfo
 
 ship_xls = readExcel.ReadExcel().get_xls("login.xls","ship")
 url = readConfig.ReadConfig().get_http("xcxbaserurl")#获取配置文件中的url地址
+ownerid = getCommonInfo.shipOwnerId
 
 @paramunittest.parametrized(*ship_xls)
 class testShip(unittest.TestCase):
@@ -63,7 +64,7 @@ class testShip(unittest.TestCase):
     def shiplist(self):
         if self.case_name == "shiplist":
             #data = json.loads(self.data)
-            ownerid = getOwnerid().testgetOwnerid()
+
             #print("ownerid",ownerid)
             #print(url + self.path+ownerid+"/list",self.data)
             info = RunMain().run_main(self.method, url + self.path+ownerid+"/list", self.data)
@@ -98,7 +99,7 @@ class testShip(unittest.TestCase):
     def shipgzhenablelist(self):
         if self.case_name == "gzhenablelist":
             data = json.loads(self.data)
-            ownerid = getOwnerid().testgetOwnerid()
+
             #print("ownerid",ownerid)
             print(url + self.path+ownerid+"/list",self.data)
             info = RunMain().run_main(self.method, url + self.path+ownerid+"/8ec3f040-f3e2-401d-bcc8-fb61de7ece3a/gzhenablelist", data)
@@ -111,7 +112,7 @@ class testShip(unittest.TestCase):
     def shipxcxenablelist(self):
         if self.case_name == "xcxenablelist":
             #data = json.loads(self.data)
-            ownerid = getOwnerid().testgetOwnerid()
+
             #print("ownerid",ownerid)
             #print(url + self.path+ownerid+"/list",self.data)
             info = RunMain().run_main(self.method, url + self.path+ownerid+"/enablelist", self.data)

@@ -6,10 +6,11 @@ import urllib.parse
 import read.readExcel as readExcel
 from common.configHttp import RunMain
 import read.readConfig as readConfig
-from test_case.getOwnerid import getOwnerid
+import common.getCommonInfo as getCommonInfo
 
 ware_xls = readExcel.ReadExcel().get_xls("ware.xls","ware")
-url = readConfig.ReadConfig().get_http("xcxbaserurl")#获取配置文件中的url地址
+url = readConfig.ReadConfig().get_http("gzhonlineurl")#获取配置文件中的url地址
+ownerid = getCommonInfo.shipOwnerId
 
 @paramunittest.parametrized(*ware_xls)
 class testware(unittest.TestCase):
@@ -40,7 +41,6 @@ class testware(unittest.TestCase):
     def recommendlist(self):
         if self.case_name == "recommendlist":
             print(url, self.path, self.data)
-            ownerid = getOwnerid().testgetOwnerid()
             info = RunMain().run_main(self.method, url +"/api/ware/"+ownerid+self.path, self.data)
             res = json.loads(info)
             print(res)
@@ -50,7 +50,6 @@ class testware(unittest.TestCase):
     #获取群主可推广所有商品列表
     def alllist(self):
         if self.case_name == "alllist":
-            ownerid = getOwnerid().testgetOwnerid()
             print(url, self.path+ownerid, self.data)
             info = RunMain().run_main(self.method, url+"/api/ware/"+ownerid+self.path, self.data)
             res = json.loads(info)
@@ -61,7 +60,6 @@ class testware(unittest.TestCase):
     #获取营销活动商品列表
     def searchlist(self):
         if self.case_name == "searchlist":
-            ownerid = getOwnerid().testgetOwnerid()
             print(url, self.path+ownerid, self.data)
             info = RunMain().run_main(self.method, url+"/api/ware/"+ownerid+self.path, self.data)
             res = json.loads(info)

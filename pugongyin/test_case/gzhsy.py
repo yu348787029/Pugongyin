@@ -3,14 +3,14 @@ import unittest
 import paramunittest
 import requests
 import urllib.parse
-from test_case.getOwnerid import getOwnerid
 import read.readExcel as readExcel
 from common.configHttp import RunMain
 import read.readConfig as readConfig
 import common.getCommonInfo as getCommonInfo
 
 gzhsy_xls = readExcel.ReadExcel().get_xls("gzhsy.xls","recent7dayspushcounttop3")
-url = readConfig.ReadConfig().get_http("xcxbaserurl")#获取配置文件中的url地址
+url = readConfig.ReadConfig().get_http("gzhonlineurl")#获取配置文件中的url地址
+ownerid = getCommonInfo.shipOwnerId
 
 @paramunittest.parametrized(*gzhsy_xls)
 class testgzhsy(unittest.TestCase):
@@ -49,7 +49,7 @@ class testgzhsy(unittest.TestCase):
     def recent7dayspushrank(self):
         if self.case_name == "recent7dayspushrank":
             #data = json.loads(self.data)-----
-            ownerid = getOwnerid().testgetOwnerid()
+
             print(url, self.path+ownerid, self.data)
             info = RunMain().run_main(self.method, url + self.path+ownerid+"/recent7dayspushrank", self.data)
             res = json.loads(info)
@@ -61,7 +61,7 @@ class testgzhsy(unittest.TestCase):
     def recent7dayspushstatistics(self):
         if self.case_name == "recent7dayspushstatistics":
             #data = json.loads(self.data)-----
-            ownerid = getOwnerid().testgetOwnerid()
+
             print(url, self.path+ownerid, self.data)
             info = RunMain().run_main(self.method, url + self.path+ownerid+"/recent7dayspushstatistics", self.data)
             res = json.loads(info)

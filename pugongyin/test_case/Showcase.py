@@ -8,14 +8,14 @@ from common.configHttp import RunMain
 import read.readConfig as readConfig
 import common.getCommonInfo as getCommonInfo
 
-gzhsy_xls = readExcel.ReadExcel().get_xls("gzh_showcase.xls","showcase")
+showcase_xls = readExcel.ReadExcel().get_xls("gzh_showcase.xls","showcase")
 url = readConfig.ReadConfig().get_http("gzhonlineurl")#获取配置文件中的url地址
 shipOwnerId = getCommonInfo.shipOwnerId
 wareId = getCommonInfo.getWareId()
 xcxtoken = getCommonInfo.getXcxToken()
 
 
-@paramunittest.parametrized(*gzhsy_xls)
+@paramunittest.parametrized(*showcase_xls)
 class testgzxcxcase(unittest.TestCase):
     def setParameters(self,case_name,path,data,method,isTest):
         self.case_name = str(case_name)
