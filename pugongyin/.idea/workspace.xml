@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ae74859-7876-4337-b525-bb164abcec30" name="Default" comment="">
+    <list default="true" id="4ae74859-7876-4337-b525-bb164abcec30" name="Default" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runAll.py" beforeDir="false" afterPath="$PROJECT_DIR$/runAll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/creditsrecord.py" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,10 +13,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_Order_py.coverage" NAME="Unittests in Order.py Coverage Results" MODIFIED="1566968751396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$getCommonInfo.coverage" NAME="getCommonInfo Coverage Results" MODIFIED="1566970402409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_ware_py.coverage" NAME="Unittests in ware.py Coverage Results" MODIFIED="1566968828580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_Ship_py.coverage" NAME="Unittests in Ship.py Coverage Results" MODIFIED="1566970653881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_xcx_orderdetail_py.coverage" NAME="Unittests in xcx_orderdetail.py Coverage Results" MODIFIED="1565859335989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_prevsearchordercredits_py.coverage" NAME="Unittests in gzh_prevsearchordercredits.py Coverage Results" MODIFIED="1565677819402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_creditsrecord_py.coverage" NAME="Unittests in creditsrecord.py Coverage Results" MODIFIED="1565838727626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$gzh_creditsrecord.coverage" NAME="gzh_creditsrecord Coverage Results" MODIFIED="1565839113059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_creditscalculaterecord_py.coverage" NAME="Unittests in gzh_creditscalculaterecord.py Coverage Results" MODIFIED="1565769327975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_currentpushwares_py.coverage" NAME="Unittests in gzh_currentpushwares.py Coverage Results" MODIFIED="1565674255190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_favoriteware_py.coverage" NAME="Unittests in gzh_favoriteware.py Coverage Results" MODIFIED="1565679695582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_getOwnerid_py.coverage" NAME="Unittests in getOwnerid.py Coverage Results" MODIFIED="1566968703620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzd_pushrecord_py.coverage" NAME="Unittests in gzd_pushrecord.py Coverage Results" MODIFIED="1565747259145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_clickrecord_py.coverage" NAME="Unittests in gzh_clickrecord.py Coverage Results" MODIFIED="1565762858587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Pugongyin$runAll.coverage" NAME="runAll Coverage Results" MODIFIED="1563954753065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pugongyin$Unittests_in_login_case_py.coverage" NAME="Unittests in login_case.py Coverage Results" MODIFIED="1563954758826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_prevpushwares_py.coverage" NAME="Unittests in gzh_prevpushwares.py Coverage Results" MODIFIED="1565674550987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_xcx_memberaccountinfo_py.coverage" NAME="Unittests in xcx_memberaccountinfo.py Coverage Results" MODIFIED="1565772564224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_xcx_order_py.coverage" NAME="Unittests in xcx_order.py Coverage Results" MODIFIED="1565839204182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_currentsearchordercredits_py.coverage" NAME="Unittests in gzh_currentsearchordercredits.py Coverage Results" MODIFIED="1565769090847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_accountInfo_py.coverage" NAME="Unittests in gzh_accountInfo.py Coverage Results" MODIFIED="1565674260755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_111_py.coverage" NAME="Unittests in 111.py Coverage Results" MODIFIED="1564650695607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_currentordercredits_py.coverage" NAME="Unittests in gzh_currentordercredits.py Coverage Results" MODIFIED="1566193979081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_Push_py.coverage" NAME="Unittests in Push.py Coverage Results" MODIFIED="1566970769919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_prevordercredits_py.coverage" NAME="Unittests in gzh_prevordercredits.py Coverage Results" MODIFIED="1565677575835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Pugongyin$Unittests_in_Shanghu_case_py.coverage" NAME="Unittests in Shanghu_case.py Coverage Results" MODIFIED="1563955176262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_Showcase_py.coverage" NAME="Unittests in Showcase.py Coverage Results" MODIFIED="1566969747809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_canclefavoriteware_py.coverage" NAME="Unittests in gzh_canclefavoriteware.py Coverage Results" MODIFIED="1565679884315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_login_py.coverage" NAME="Unittests in gzh_login.py Coverage Results" MODIFIED="1565674126628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_login_case_py.coverage" NAME="Unittests in login_case.py Coverage Results" MODIFIED="1564562882172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_xcx_orderlogistics_py.coverage" NAME="Unittests in xcx_orderlogistics.py Coverage Results" MODIFIED="1566196733654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_buyrecord_py.coverage" NAME="Unittests in gzh_buyrecord.py Coverage Results" MODIFIED="1565762862452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzhsy_py.coverage" NAME="Unittests in gzhsy.py Coverage Results" MODIFIED="1566970036211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/Pugongyin$Unittests_in_login_case_py.coverage" NAME="Unittests in login_case.py Coverage Results" MODIFIED="1563954758826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_creditsrecord1_py.coverage" NAME="Unittests in gzh_creditsrecord.py Coverage Results" MODIFIED="1565839208943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_in_gzh_earninginfo_py.coverage" NAME="Unittests in gzh_earninginfo.py Coverage Results" MODIFIED="1566197248785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$gzh_account.coverage" NAME="gzh_account Coverage Results" MODIFIED="1564650625521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$runAll.coverage" NAME="runAll Coverage Results" MODIFIED="1566969780188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pugongyin$Unittests_in_gzh_login_py.coverage" NAME="Unittests in gzh_login.py Coverage Results" MODIFIED="1563955049923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/pugongyin$Unittests_for_getOwnerid_getOwnerid_testgetOwnerid.coverage" NAME="Unittests for getOwnerid.getOwnerid.testgetOwnerid Coverage Results" MODIFIED="1566366281612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="464360089">
@@ -52,47 +87,80 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-945676086">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="6" />
+          <entry key="ini" value="7" />
+          <entry key="py" value="141" />
+          <entry key="txt" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="6" />
+          <entry key="Ini" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="141" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ini" value="50" />
+          <entry key="py" value="1989" />
+          <entry key="txt" value="320" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="50" />
+          <entry key="PLAIN_TEXT" value="320" />
+          <entry key="Python" value="1989" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/runAll.py">
+        <entry file="file://$PROJECT_DIR$/common/getCommonInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+            <state relative-caret-position="701">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/login_case.py">
+        <entry file="file://$PROJECT_DIR$/common/configHttp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="228">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="50" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result/report.html">
+        <entry file="file://$PROJECT_DIR$/test_case/gzhsy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/Shanghu_case.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state relative-caret-position="209">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="52" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -101,21 +169,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
+        <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="150">
+              <caret line="670" column="57" selection-start-line="670" selection-start-column="57" selection-end-line="670" selection-end-column="57" />
               <folding>
-                <element signature="e#32#42#0" expanded="true" />
+                <element signature="e#3206#3221#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/gzh_login.py">
+        <entry file="file://$PROJECT_DIR$/common/mongoDataClient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-889">
+            <state relative-caret-position="95">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/ware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/Showcase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1566969746381" expanded="true" signature="856:865" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/Order.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/Push.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/Ship.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1900">
+              <caret line="108" column="44" lean-forward="true" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -125,9 +242,24 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>stopTime</find>
+      <find>gzhu</find>
+      <find>url</find>
+      <find>unittest</find>
+      <find>TestCase</find>
+      <find>code</find>
+      <find>ShipOwnerId</find>
+      <find>getOwnerid</find>
+      <find>ownerid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,9 +268,43 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/result/report.html" />
         <option value="$PROJECT_DIR$/runAll.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_account.py" />
+        <option value="$PROJECT_DIR$/test_case/111.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_login.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_accountInfo.py" />
+        <option value="$PROJECT_DIR$/getPath.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_currentpushwares.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_prevpushwares.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_currentordercredits.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_currentsearchordercredits.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_prevsearchordercredits.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_favoriteware.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_canclefavoriteware.py" />
+        <option value="$PROJECT_DIR$/test_case/gzd_pushrecord.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_clickrecord.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_buyrecord.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_prevordercredits.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_creditsrecord1.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_creditscalculaterecord.py" />
+        <option value="$PROJECT_DIR$/test_case/xcx_memberaccountinfo.py" />
+        <option value="$PROJECT_DIR$/test_case/xcx_order.py" />
+        <option value="$PROJECT_DIR$/test_case/asd.py" />
+        <option value="$PROJECT_DIR$/test_case/creditsrecord.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_creditsrecord.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/test_case/xcx_orderdetail.py" />
+        <option value="$PROJECT_DIR$/test_case/xcx_orderlogistics.py" />
+        <option value="$PROJECT_DIR$/test_case/gzh_earninginfo.py" />
+        <option value="$PROJECT_DIR$/test_case/getOwnerid.py" />
+        <option value="$PROJECT_DIR$/common/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/test_case/Ship.py" />
+        <option value="$PROJECT_DIR$/test_case/Showcase.py" />
+        <option value="$PROJECT_DIR$/test_file/caselist.txt" />
+        <option value="$PROJECT_DIR$/test_case/gzhsy.py" />
+        <option value="$PROJECT_DIR$/test_case/ware.py" />
+        <option value="$PROJECT_DIR$/common/getCommonInfo.py" />
       </list>
     </option>
   </component>
@@ -149,70 +315,36 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="19" />
-    <option name="y" value="12" />
+    <option name="x" value="20" />
+    <option name="y" value="24" />
     <option name="width" value="1260" />
     <option name="height" value="944" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Pugongyin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pugongyin" type="b2602c69:ProjectViewProjectNode" />
               <item name="pugongyin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pugongyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugongyin" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pugongyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugongyin" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pugongyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugongyin" type="462c0819:PsiDirectoryNode" />
-              <item name="read" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pugongyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugongyin" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pugongyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugongyin" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pugongyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugongyin" type="462c0819:PsiDirectoryNode" />
-              <item name="test_file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pugongyin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pugongyin" type="462c0819:PsiDirectoryNode" />
-              <item name="test_file" type="462c0819:PsiDirectoryNode" />
-              <item name="case" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python36/python3.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../蒲公英集成/pugongying_Integre" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -227,7 +359,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Shanghu_case.py">
+  <component name="RunManager" selected="Python tests.Unittests in Push.py">
+    <configuration name="getCommonInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pugongyin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/getCommonInfo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="runAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pugongyin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,7 +404,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in Shanghu_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in Push.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Pugongyin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,11 +415,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/Shanghu_case.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/Push.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in gzh_login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in Ship.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Pugongyin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,11 +430,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/gzh_login.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/Ship.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in login_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in gzhsy.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Pugongyin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,21 +445,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/login_case.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case/gzhsy.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python tests.Unittests in Ship.py" />
       <item itemvalue="Python.runAll" />
-      <item itemvalue="Python tests.Unittests in login_case.py" />
-      <item itemvalue="Python tests.Unittests in Shanghu_case.py" />
-      <item itemvalue="Python tests.Unittests in gzh_login.py" />
+      <item itemvalue="Python tests.Unittests in gzhsy.py" />
+      <item itemvalue="Python.getCommonInfo" />
+      <item itemvalue="Python tests.Unittests in Push.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in Shanghu_case.py" />
-        <item itemvalue="Python tests.Unittests in gzh_login.py" />
-        <item itemvalue="Python tests.Unittests in login_case.py" />
+        <item itemvalue="Python tests.Unittests in Push.py" />
+        <item itemvalue="Python tests.Unittests in Ship.py" />
+        <item itemvalue="Python.getCommonInfo" />
+        <item itemvalue="Python tests.Unittests in gzhsy.py" />
         <item itemvalue="Python.runAll" />
       </list>
     </recent_temporary>
@@ -320,34 +476,141 @@
       <option name="presentableId" value="Default" />
       <updated>1560741623652</updated>
     </task>
+    <task id="LOCAL-00001" summary="增加两个">
+      <created>1565677410648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565677410648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add">
+      <created>1565747358363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565747358363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add">
+      <created>1565747385672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565747385672</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add">
+      <created>1565747405001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565747405001</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add">
+      <created>1565768634474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565768634474</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add">
+      <created>1565768698871</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565768698871</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add">
+      <created>1565856798238</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565856798238</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add">
+      <created>1565856839452</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565856839452</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add">
+      <created>1565858359557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565858359557</updated>
+    </task>
+    <task id="LOCAL-00010" summary="汇总">
+      <created>1566197981404</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1566197981404</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add">
+      <created>1566540442308</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566540442308</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ownid修改，部分修改成线上接口">
+      <created>1566971490542</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566971490542</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add">
+      <created>1567146130664</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1567146130664</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_login_case_py - 2019.07.24 at 15h 43m 36s.xml">
-      <configuration name="Unittests in login_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Ship_py - 2019.08.28 at 13h 07m 01s.xml">
+      <configuration name="Unittests in Ship.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_login_case_py - 2019.07.24 at 15h 52m 39s.xml">
-      <configuration name="Unittests in login_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_ware_py - 2019.08.28 at 13h 07m 09s.xml">
+      <configuration name="Unittests in ware.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Shanghu_case_py - 2019.07.24 at 15h 53m 54s.xml">
-      <configuration name="Unittests in Shanghu_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Showcase_py - 2019.08.28 at 13h 15m 09s.xml">
+      <configuration name="Unittests in Showcase.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_gzh_login_py - 2019.07.24 at 15h 57m 30s.xml">
-      <configuration name="Unittests in gzh_login.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Ship_py - 2019.08.28 at 13h 19m 12s.xml">
+      <configuration name="Unittests in Ship.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Shanghu_case_py - 2019.07.24 at 15h 59m 36s.xml">
-      <configuration name="Unittests in Shanghu_case.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Showcase_py - 2019.08.28 at 13h 21m 22s.xml">
+      <configuration name="Unittests in Showcase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Showcase_py - 2019.08.28 at 13h 21m 41s.xml">
+      <configuration name="Unittests in Showcase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Showcase_py - 2019.08.28 at 13h 22m 28s.xml">
+      <configuration name="Unittests in Showcase.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_gzhsy_py - 2019.08.28 at 13h 27m 21s.xml">
+      <configuration name="Unittests in gzhsy.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Ship_py - 2019.08.28 at 13h 37m 34s.xml">
+      <configuration name="Unittests in Ship.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Push_py - 2019.08.28 at 13h 39m 30s.xml">
+      <configuration name="Unittests in Push.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25809062" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28398058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3236994" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35375723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,28 +634,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加两个" />
+    <MESSAGE value="汇总" />
+    <MESSAGE value="ownid修改，部分修改成线上接口" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/configHttp.py">
+    <entry file="file://$PROJECT_DIR$/test_case/Shanghu_case.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read/readConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="342">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#32#42#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_account.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/111.py" />
+    <entry file="file://$PROJECT_DIR$/../../个人文件/新建文件夹/Pugongyin/test_case/gzh_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-902" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read/readExcel.py">
@@ -402,86 +667,232 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/mongoDataClient.py">
+    <entry file="file://$PROJECT_DIR$/test_case/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="e#26#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getPath.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/gzh_shouye.py">
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_shouye.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/login_case.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="172">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_login.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/xlrd/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="475" selection-start-line="475" selection-end-line="475" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/gzd_pushrecord.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/asd.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/creditsrecord.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_accountInfo.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_buyrecord.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_canclefavoriteware.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_clickrecord.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_creditscalculaterecord.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_creditsrecord.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_currentordercredits.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_currentpushwares.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_currentsearchordercredits.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_favoriteware.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_prevordercredits.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_prevpushwares.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_prevsearchordercredits.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_pushrecord.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/xcx_memberaccountinfo.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/xcx_order.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/xcx_orderdetail.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/xcx_orderlogistics.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/gzh_earninginfo.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/getOwnerid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="61" column="50" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read/readConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="19" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_file/caselist.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/login_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/gzh_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-889">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result/report.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/Shanghu_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state>
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#32#42#0" expanded="true" />
+            <element signature="e#11402#11453#0" expanded="true" />
+            <element signature="e#15376#15427#0" expanded="true" />
+            <element signature="e#16872#16923#0" expanded="true" />
+            <element signature="e#18187#18238#0" expanded="true" />
+            <element signature="e#19698#19749#0" expanded="true" />
+            <element signature="e#21117#21168#0" expanded="true" />
+            <element signature="e#22492#22543#0" expanded="true" />
+            <element signature="e#23647#23698#0" expanded="true" />
+            <element signature="e#24811#24862#0" expanded="true" />
+            <element signature="e#26271#26322#0" expanded="true" />
+            <element signature="e#27135#27186#0" expanded="true" />
+            <element signature="e#28232#28283#0" expanded="true" />
+            <element signature="e#30035#30086#0" expanded="true" />
+            <element signature="e#31296#31347#0" expanded="true" />
+            <element signature="e#32551#32602#0" expanded="true" />
+            <element signature="e#33801#33852#0" expanded="true" />
+            <element signature="e#35262#35313#0" expanded="true" />
+            <element signature="e#38170#38221#0" expanded="true" />
+            <element signature="e#39830#39881#0" expanded="true" />
+            <element signature="e#42029#42080#0" expanded="true" />
+            <element signature="e#43958#44009#0" expanded="true" />
+            <element signature="e#48708#48759#0" expanded="true" />
+            <element signature="e#53509#53560#0" expanded="true" />
+            <element signature="e#54916#54967#0" expanded="true" />
+            <element signature="e#55923#55974#0" expanded="true" />
+            <element signature="e#208582#208633#0" expanded="true" />
+            <element signature="e#209719#209770#0" expanded="true" />
+            <element signature="e#211124#211175#0" expanded="true" />
+            <element signature="e#212516#212567#0" expanded="true" />
+            <element signature="e#213899#213950#0" expanded="true" />
+            <element signature="e#215337#215388#0" expanded="true" />
+            <element signature="e#215666#215671#0" expanded="true" />
+            <element signature="e#215718#215723#0" expanded="true" />
+            <element signature="e#216863#216914#0" expanded="true" />
+            <element signature="e#220169#220220#0" expanded="true" />
+            <element signature="e#220529#220533#0" expanded="true" />
+            <element signature="e#220534#220538#0" expanded="true" />
+            <element signature="e#220538#220542#0" expanded="true" />
+            <element signature="e#220668#220672#0" expanded="true" />
+            <element signature="e#220672#220676#0" expanded="true" />
+            <element signature="e#220678#220682#0" expanded="true" />
+            <element signature="e#43501#43507#1" expanded="true" />
+            <element signature="e#43546#43552#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="85" column="3" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
+        <state relative-caret-position="286">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/ware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Showcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1566969746381" expanded="true" signature="856:865" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Push.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/Ship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="108" column="44" lean-forward="true" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/mongoDataClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="670" column="57" selection-start-line="670" selection-start-column="57" selection-end-line="670" selection-end-column="57" />
+          <folding>
+            <element signature="e#3206#3221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/configHttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/gzhsy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/getCommonInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
